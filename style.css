@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 30px;
+  font-weight: bold;
+}
+
+table {
+  text-align: center;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+  height: 60px;
+}
+
+.navbar .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+}
+
+.navbar .logo {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  border-bottom: 2px #fff solid;
+  color: #ddd;
+}
+
+h1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.Hahmlet {
+  font-family: 'Hahmlet', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-size: 20px;
+}
+
+h2 {
+  padding-top: 30px;
+}
+
+.signup {
+  padding-top: 30px;
+}
